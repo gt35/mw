@@ -1,0 +1,59 @@
+body {
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 2em;
+	background-color: none;
+	color: #4d4d4d;
+	width: 550px;
+    margin: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+
+}
+button{
+    padding:5px;
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: white;
+    z-index: 2;
+}
+#main{}
+input[type="text"],input[type="password"],textarea,select{outline:none;} /*only outlines in chrome?*/
+#loginform input[type="text"]:focus{border-left: 5px solid brown;} 
+#loginform input[type="password"]:focus{border-left: 5px solid brown;} 
+#form{
+	background-color: #F5F5F5;
+	border:1px solid white;
+        border-radius:25px;
+        text-align: center;
+        padding:20px;
+
+}
+
+#ucid, #pass{
+    padding: 16px 16px 16px 40px;
+	border: none;
+	z-index: 2;
+	box-shadow: none;
+    display: block;
+ 
+}
+#ucid{
+    	background: rgba(0, 0, 0, 0.02) url('http://i1321.photobucket.com/albums/u544/vj11590/user_silhouette_zpsc3b72e82.png') no-repeat;
+        background-position:right center;
+
+}
+#pass{
+       	background: rgba(0, 0, 0, 0.02) url('http://i1321.photobucket.com/albums/u544/vj11590/lock_zps7fc69ec6.png')no-repeat;
+        background-position:right center;
+}
+h1.pre, h1.post{
+    font-size: 15px;
+    text-align: center;
+    background-color: #74A3C9;
+    border-radius:25px;
+}
+h1.post{
+    font-size: 8px;
+}
