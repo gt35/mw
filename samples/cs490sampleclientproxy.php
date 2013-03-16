@@ -1,0 +1,2 @@
+﻿<html><head></head><body><p>View the source to see the raw results. But, the client should make it pretty, such as: </p><br /><br /><table border="1"><tr><td></td></tr><tr><td></td></tr><tr><td>young</td></tr></table><?xml version="1.0" encoding="UTF-8"?><xml><person><name></name><age></age><evaluation>young</evaluation></person></xml>   
+</body</html>
