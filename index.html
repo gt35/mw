@@ -1,38 +1,75 @@
-<!doctype html>
-<html>
-  <head>
-    <link rel="stylesheet" href="css/login_css.css" type="text/css">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/login.js"></script>
-    <meta charset="utf-8">
-    <title>TNM::Login</title>
-  </head>
-  <body>
-    <section id = "pre">
-       <h1 class="pre">Login to: the new moodle</h1>
-    </section>
-    <div id = "main">
-	  <section id = "form" name = "main">
-		<center>
-		<form class="login" action="" method="POST" id="loginform">
-		  <input type = "hidden" name = "isSubmitted" value = "1"/>
-		  
-		  <input type="text" name="U" id="ucid" placeholder="UCID"/>
-		  <br>
-		  <input type="password" name="P" id="pass" placeholder="password"/>
-		  <br>
-		  <div id="err"> Enter UCID/PWD </div>
-   		<input type="submit" value = "Log In"/>
-
-		</form>
-		</center>
-		
-	  </section>
-    </div>
-      
-    <footer id="info">
-	<h1 class="post"> <a href="">Vrajesh Patel</a>, <a href ="">Giaspur Tabangay</a> and <a href="">Vuong Huynh</a></h1> 
-    </footer>
-    <script></script>
-  </body>
-</html>
+<!doctype html>
+
+<html>
+	
+	<head>
+		
+		<link rel="stylesheet" href="css/login_css.css" type="text/css">
+		
+		<script type="text/javascript" src="js/jquery.js"></script>
+		
+		<!--<script type="text/javascript" src="js/login.js"></script>-->
+		
+		<meta charset="utf-8">
+		
+		<title>TNM::Login</title>
+		
+	</head>
+	
+	<body>
+		
+		<section id = "pre">
+			
+			<h1 class="pre">Login to: the new moodle</h1>
+			
+		</section>
+		
+		<div id = "main">
+			
+			<section id = "form" name = "main">
+				
+				<center>
+					
+					<form class="login" action="loginproxy.php" method="POST" id="loginform">
+						
+						<input type = "hidden" name = "isSubmitted" value = "1"/>
+						
+						
+						
+						<input type="text" name="U" id="ucid" placeholder="UCID"/>
+						
+						<br>
+						
+						<input type="password" name="P" id="pass" placeholder="password"/>
+						
+						<br>
+						
+						<div id="err"> Enter UCID/PWD </div>
+						
+						<input type="submit" value = "Log In"/>
+						
+						
+						
+					</form>
+					
+				</center>
+				
+				
+				
+			</section>
+			
+		</div>
+		
+		
+		
+		<footer id="info">
+		
+		<h1 class="post"> <a href="">Vrajesh Patel</a>, <a href ="">Giaspur Tabangay</a> and <a href="">Vuong Huynh</a></h1> 
+		
+		</footer>
+		
+		<script></script>
+		
+		</body>
+		
+		</html>				
