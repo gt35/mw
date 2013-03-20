@@ -14,8 +14,7 @@ $(document).ready(function(){
 		ucid = $("#ucid").val();
 		pwd = $("#pass").val();
 		
-
-		
+		//comment!		
 		if((ucid != null)&& (pwd != null))
 		{
 			alert(ucid);
