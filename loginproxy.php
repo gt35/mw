@@ -1,7 +1,7 @@
 ﻿<?php
 $url = 'checklogin.php';
 
-$postdata = $_POST;
+$postdata = $_POST; //there is an error here?
 
 $c = curl_init();
 curl_setopt($c, CURLOPT_HTTPHEADER, array('Content-Type' => 'application/xml'));
